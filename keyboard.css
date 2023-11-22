@@ -1,0 +1,56 @@
+div.keyboard {
+	background-color: rgb(66, 66, 66);
+	display: grid;
+	grid-template-columns: repeat(24, minmax(0.1rem, 1fr));
+	grid-template-rows: repeat(5, minmax(1.8rem, 1fr));
+	grid-gap: 0.1rem;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.2rem;
+	margin-bottom: 3rem;
+	aspect-ratio: 1/0.3;
+}
+
+.key {
+	font-weight: 200;
+	display: grid;
+	place-content: center;
+	color: #333;
+	background-color: rgb(233, 233, 233);
+	border: 1px solid #999;
+	border-radius: 0.2rem;
+	grid-column: span 2;
+}
+
+.half {
+	grid-column: 1 / 1;
+}
+
+.key:hover {
+	background-color: aliceblue;
+	border: 1px solid #333;
+}
+
+.tab {
+	grid-column: span 3;
+}
+
+.return {
+	grid-column: span 4;
+}
+
+.leftshift {
+	grid-column: span 4;
+}
+
+.command {
+	grid-column: span 5;
+	font-size: 14px;
+}
+
+.option {
+	grid-column: span 4;
+}
+
+.space {
+	grid-column: span 13;
+}
