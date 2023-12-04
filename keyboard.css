@@ -4,6 +4,9 @@
 }
 
 div.keyboard {
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 0.9rem;
 	box-sizing: border-box;
 	position: absolute;
 	bottom: 0;
@@ -13,18 +16,17 @@ div.keyboard {
 	display: grid;
 	grid-template-columns: repeat(20, minmax(0.1rem, 1fr));
 	grid-template-rows: repeat(4, minmax(1.8rem, 1fr));
-	grid-gap: 0.2rem;
-	border-radius: 0.3rem;
+	grid-gap: 0.3rem;
+	padding: 0.2rem 0;
 }
 
 .key {
-	font-weight: 200;
 	display: grid;
 	place-content: center;
 	color: #333;
 	background-color: rgb(233, 233, 233);
 	border: 1px solid #999;
-	border-radius: 0.2rem;
+	border-radius: 0.3rem;
 	grid-column: span 2;
 	height: var(--key-height);
 }
@@ -71,4 +73,11 @@ div.keyboard {
 .space {
 	grid-column: span 12;
 	height: var(--bottom-line-height);
+}
+
+.backspace {
+	font-weight: bolder;
+	background-color: black;
+	color: aliceblue;
+	border: 1px solid black;
 }
