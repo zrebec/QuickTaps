@@ -1,4 +1,4 @@
-### KKK - Koníkov koncept klávesnice
+### QuickTaps
 
 ## Základný rincíp
 Princíp KKK spočita v tom, že na rozdieľ od iných klávesníc, kde sú diakritické
