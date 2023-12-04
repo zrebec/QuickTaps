@@ -81,3 +81,9 @@ div.keyboard {
 	color: aliceblue;
 	border: 1px solid black;
 }
+
+.onpress {
+	background-color: #06a;
+	color: white;
+	font-size: larger;
+}
