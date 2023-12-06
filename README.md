@@ -2,7 +2,7 @@
 
 ## Základný rincíp
 
-Princíp KKK spočita v tom, že na rozdieľ od iných klávesníc, kde sú diakritické
+Princíp QuickTaps spočita v tom, že na rozdieľ od iných klávesníc, kde sú diakritické
 znamienka pevne dané, táto klávesnica kombinuje bývalé písanie SMS v dobe 90.
 rokov a súčasných moderných klávesníc. V princípe ide o to, že stlačenie
 klávesy "l" napíše skutočne literu "l". Akvšak dvojité stlačenie tejto klávesy
